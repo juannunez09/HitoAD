@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+<item>
+<nombre>wda</nombre>
+<ciudad>text2.getText()</ciudad>
+<salario>wda</salario>
+</item>
+<item>
+<nombre>rgreg</nombre>
+<ciudad>text2.getText()</ciudad>
+<salario>gre</salario>
+</item>
+</config>

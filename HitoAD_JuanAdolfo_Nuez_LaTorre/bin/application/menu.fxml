@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuControler">
+   <children>
+      <AnchorPane prefHeight="525.0" prefWidth="764.0">
+         <children>
+            <Label layoutX="232.0" layoutY="47.0" text="Que archivo quieres">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Label>
+            <Button layoutX="170.0" layoutY="328.0" mnemonicParsing="false" onAction="#abrirTXT" text="TXT" />
+            <Button layoutX="373.0" layoutY="328.0" mnemonicParsing="false" onAction="#abrirJSON" text="JSON" />
+            <Button layoutX="539.0" layoutY="328.0" mnemonicParsing="false" onAction="#abrirXML" text="XML" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
